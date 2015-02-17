@@ -15,3 +15,14 @@
     z-index: 100;
     position: relative;
 }
+
+#book {
+    background-color: rgba(255,255,255,0); 
+    color: rgb(34,34,34); 
+    position: absolute; 
+    top: 10%; 
+    left: 12%; 
+    z-index: 3; 
+    border: none; 
+    font-size: 16px;
+}
