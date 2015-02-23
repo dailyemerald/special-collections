@@ -36,15 +36,26 @@ Sorry, <strong>CANVAS</strong> is not supported by your browser. Get a more rece
 </canvas> 
 
 <div class="row">
-<div class="col-md-2 mod" id="modal1">window</div>
-<div class="col-md-2 mod" id="modal2">James Fox</div>
+<div class="mod" id="modal1">window</div>
+<div class="mod" id="modal2">James Fox</div>
 </div>
-<div class="story" id="stry">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that. 
+<div class="story" id="stry1">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that. 
 <br>
 <br>    
-<button class="btn1">Hide</button>
+<button class="btn" id="btn1">Hide</button>
 </div> 
-
+<div class="story" id="stry2">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that. 
+<br>
+<br>    
+<button class="btn" id="btn2">Hide</button>
+</div>
+<div class="mod" id="modal3">FILES</div>
+</div>
+<div class="story" id="stry3">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that. 
+<br>
+<br>    
+<button class="btn" id="btn3">Hide</button>
+</div>
 
 
 <p id="cred" style="padding-left: 3%; color: #FFFFFF;">Design<a style="color: #FFFFFF; text-decoration: none;" href="https://twitter.com/DavidBaggs" target="_blank"> @DavidBaggs </a> |  Web Development<a href="https://twitter.com/Sierra_morgann" style="color: #FFFFFF; text-decoration: none;" target="_blank"> @Sierra_morgann </a></p>
@@ -60,12 +71,31 @@ var imageObj = new Image();
       imageObj.src = 'img/lib.jpg';
 
 $('#modal1').click(function(){
-    $('#stry').show();
+    $('#stry1').show();
 });
 
-$(".btn1").click(function(){
-        $("#stry").hide();
+$("#btn1").click(function(){
+        $("#stry1").hide();
     });
+
+// story 2
+$('#modal2').click(function(){
+    $('#stry2').show();
+});
+
+$("#btn2").click(function(){
+        $("#stry2").hide();
+    });
+
+// story 3
+$('#modal3').click(function(){
+    $('#stry3').show();
+});
+
+$("#btn3").click(function(){
+        $("#stry3").hide();
+    });
+
 </script>
 
 <script>

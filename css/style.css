@@ -44,10 +44,15 @@ body{
     left: 45%;
 }
 
+#modal3 {
+    margin-top: 50%;
+    left: 80%;
+}
+
 #cred {
     position: relative;
     z-index: 30;
-    margin-top: 98%;
+    display: none;
 }
 
 .story{  
@@ -57,10 +62,21 @@ body{
     padding: 5%;
     max-width: 50%;
     display: none;
+    margin: 0;
+    border-radius: 3%;
 }
 
-.btn1 {
+.btn {
     position: relative;
     z-index: 201;
+    border-style: none;
+    border-radius: 5%; 
 }
-
+#stry2 {
+    left: 45%;
+    margin-top: 35%;
+}
+#stry3 {
+    left: 70%;
+    margin-top: 50%;
+}
