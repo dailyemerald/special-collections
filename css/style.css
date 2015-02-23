@@ -1,3 +1,9 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(34,34,34);
+}
+
 #ontop {
     position: fixed;
     z-index: 100;
@@ -16,13 +22,44 @@
     position: relative;
 }
 
-#window {
-    background-color: rgba(255,255,255,0); 
-    color: rgb(34,34,34); 
-    position: absolute; 
-    top: 10%; 
-    left: 12%; 
-    z-index: 3; 
-    border: none; 
-    font-size: 16px;
+#canvas {
+    z-index: 1;
+    position: absolute;
 }
+
+.mod {  
+    z-index: 100; 
+    cursor: pointer;
+    position: absolute;
+}
+
+#modal1 { 
+    margin-top: 20%;
+    left: 15%;
+} 
+
+#modal2 { 
+    margin-top: 20%;
+    left: 45%;
+}
+
+#cred {
+    position: relative;
+    z-index: 30;
+    margin-top: 98%;
+}
+
+.story{  
+    position: relative;
+    z-index: 200;
+    background-color: rgb(255,255,255);
+    padding: 5%;
+    max-width: 50%;
+    display: none;
+}
+
+.btn1 {
+    position: relative;
+    z-index: 201;
+}
+
