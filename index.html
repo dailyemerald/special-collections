@@ -10,6 +10,16 @@
     <link rel="shortcut icon" href="../favicon.ico">
     <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="js/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        function detectmob() {
+            if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+                $('body').style.visibility = "hidden";
+                document.write('Check out UO Special Collections on a laptop or tablet')
+            } else {
+                return false;
+            }
+        }
+    </script>
     <title>UO Special Collections</title>
 </head>
 <body>
@@ -29,76 +39,70 @@
         </div>
         <!-- end ontop -->
     </div>
-        <!-- end row --> 
-       
-<canvas id="canvas" width="2000" height="1570">
-Sorry, <strong>CANVAS</strong> is not supported by your browser. Get a more recent one to view.
-</canvas> 
+    <!-- end row -->
+    <canvas id="canvas" width="2000" height="1570">Sorry, <strong>CANVAS</strong> is not supported by your browser. Get a more recent one to view.</canvas>
+    <div class="row">
+        <div class="mod" id="modal1">window</div>
+        <div class="mod" id="modal2">James Fox</div>
+    </div>
+    <div class="story" id="stry1">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that.
+        <br>
+        <br>
+        <button class="btn" id="btn1">Hide</button>
+    </div>
+    <div class="story" id="stry2">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that.
+        <br>
+        <br>
+        <button class="btn" id="btn2">Hide</button>
+    </div>
+    <div class="mod" id="modal3">FILES</div>
+    </div>
+    <div class="story" id="stry3">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that.
+        <br>
+        <br>
+        <button class="btn" id="btn3">Hide</button>
+    </div>
+    <p id="cred" style="padding-left: 3%; color: #FFFFFF;">Design<a style="color: #FFFFFF; text-decoration: none;" href="https://twitter.com/DavidBaggs" target="_blank"> @DavidBaggs </a> | Web Development<a href="https://twitter.com/Sierra_morgann" style="color: #FFFFFF; text-decoration: none;" target="_blank"> @Sierra_morgann </a>
+    </p>
+    <script type="text/javascript">
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var imageObj = new Image();
 
-<div class="row">
-<div class="mod" id="modal1">window</div>
-<div class="mod" id="modal2">James Fox</div>
-</div>
-<div class="story" id="stry1">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that. 
-<br>
-<br>    
-<button class="btn" id="btn1">Hide</button>
-</div> 
-<div class="story" id="stry2">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that. 
-<br>
-<br>    
-<button class="btn" id="btn2">Hide</button>
-</div>
-<div class="mod" id="modal3">FILES</div>
-</div>
-<div class="story" id="stry3">here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. here is the story and there is not much else to say that. vhere is the story and there is not much else to say that. here is the story and there is not much else to say that. 
-<br>
-<br>    
-<button class="btn" id="btn3">Hide</button>
-</div>
 
+        imageObj.onload = function() {
+            ctx.drawImage(imageObj, 0, 0);
+        };
+        imageObj.src = 'img/lib.jpg';
 
-<p id="cred" style="padding-left: 3%; color: #FFFFFF;">Design<a style="color: #FFFFFF; text-decoration: none;" href="https://twitter.com/DavidBaggs" target="_blank"> @DavidBaggs </a> |  Web Development<a href="https://twitter.com/Sierra_morgann" style="color: #FFFFFF; text-decoration: none;" target="_blank"> @Sierra_morgann </a></p>
+        $('#modal1').click(function() {
+            $('#stry1').show();
+        });
 
-<script type="text/javascript">
-var canvas = document.getElementById("canvas");
-var ctx = canvas.getContext("2d");
-var imageObj = new Image();
+        $("#btn1").click(function() {
+            $("#stry1").hide();
+        });
 
-      imageObj.onload = function() {
-        ctx.drawImage(imageObj, 0, 0);
-      };
-      imageObj.src = 'img/lib.jpg';
+        // story 2
+        $('#modal2').click(function() {
+            $('#stry2').show();
+        });
 
-$('#modal1').click(function(){
-    $('#stry1').show();
-});
+        $("#btn2").click(function() {
+            $("#stry2").hide();
+        });
 
-$("#btn1").click(function(){
-        $("#stry1").hide();
-    });
+        // story 3
+        $('#modal3').click(function() {
+            $('#stry3').show();
+        });
 
-// story 2
-$('#modal2').click(function(){
-    $('#stry2').show();
-});
+        $("#btn3").click(function() {
+            $("#stry3").hide();
+        });
 
-$("#btn2").click(function(){
-        $("#stry2").hide();
-    });
-
-// story 3
-$('#modal3').click(function(){
-    $('#stry3').show();
-});
-
-$("#btn3").click(function(){
-        $("#stry3").hide();
-    });
-
-</script>
-
-<script>
+    </script>
+    <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function() {
