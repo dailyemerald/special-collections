@@ -91,7 +91,7 @@ canvas {
     margin-top: 90%;
 }
 
-/*@media screen and (min-width: 450px) and (max-width: 995px) {
+@media screen and (min-width: 450px) and (max-width: 995px) {
     .share-buttons img {
         width: 25%;
         padding-left: 15%;
@@ -99,12 +99,13 @@ canvas {
     }    
 }
 
-/*@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 400px) {
   body { 
     display: none; 
 }  /* show it on small screens */
 
-/*}
+}
+
 
 
 
