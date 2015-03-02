@@ -123,7 +123,7 @@ canvas {
 }
 
 
-@media screen and (min-width: 450px) and (max-width: 995px) {
+@media screen and (min-width: 420px) and (max-width: 995px) {
     .share-buttons img {
         width: 50%;
         padding-left: 15%;
@@ -194,7 +194,7 @@ canvas {
  
 }
 
-@media screen and (min-width: 0px) and (max-width: 360px) { 
+@media screen and (min-width: 0px) and (max-width: 400px) { 
     #modal1 { 
         margin-top: 35%;
         left: 3%;
