@@ -194,7 +194,7 @@ canvas {
  
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) { 
+@media screen and (min-width: 0px) and (max-width: 360px) { 
     #modal1 { 
         margin-top: 35%;
         left: 3%;
