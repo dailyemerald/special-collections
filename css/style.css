@@ -195,84 +195,13 @@ canvas {
 }
 
 @media screen and (min-width: 0px) and (max-width: 400px) { 
-    #modal1 { 
-        margin-top: 35%;
-        left: 3%;
+    #canvas{
+        position: absolute;
     } 
 
-    #modal2 { 
-        margin-top: 30%;
-        left: 60%;
-    }
-
-    #modal3 {
-        margin-top: 300%;
-        left: 80%;
-    }
-
-    #modal4 {
-        margin-top: 150%;
-        left: 100%;
-    }
-
-    #modal5 {
-        margin-top: 205%;
-        left: 75%;
-    }
-
-    #modal6 {
-        margin-top: 250%;
-        left: 15%;
-    }
-
-    .story {  
-        position: relative;
-        z-index: 200;
-        background-color: rgb(255,255,255);
-        padding: 3%;
-        display: none;
-        margin: 0;
-        border-radius: 3%;
-        width: 200%;
-        position: absolute;
-        font-size: 10px;
-    }
-
-    #stry1 {
-        left: 5%;
-        margin-top: 10%;
-    }
-
-    #stry2 {
-        left: 45%;
-        margin-top: 20%;
-    }
-
-    #stry3 {
-        left: 65%;
-        margin-top: 253%;
-    }
-
-    #stry4 {
-        left: 70%;
-        margin-top: 100%;
-    }
-
-    #stry5 {
-        left: 70%;
-        margin-top: 150%;
-    }
-
-    #stry6 {
-        left: 15%;
-        margin-top: 200%;
-    }
-}  /* show it on small screens */
 
 
-
-
-
+}
 
 
 
