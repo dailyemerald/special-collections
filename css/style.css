@@ -195,6 +195,12 @@ canvas {
 }
 
 @media screen and (min-width: 0px) and (max-width: 400px) { 
+    .share-buttons img {
+        width: 20%;
+        padding-left: 15%;
+        padding-top: 1%;
+    } 
+
     #canvas{
         position: absolute;
     } 
