@@ -97,6 +97,14 @@ canvas {
 .by {
     font-family: 'Cinzel', serif;
     font-size: 100%;
+    margin-left: 2%;
+}
+
+.im {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 0.5%;
 }
 
 .btn {
@@ -284,14 +292,8 @@ canvas {
         left: 0%;
     }
 
-    
 }  /* show it on small screens */
 
-@media screen and (min-device-width: 0px) and (max-device-width: 200px) {
-    body {
-        background-image: url("img/orientation.png");
-    }
-}
 
 
 
