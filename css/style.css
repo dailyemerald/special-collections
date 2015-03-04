@@ -260,6 +260,7 @@ canvas {
         width: 150%;
         position: absolute;
         font-size: 11px;
+        padding: 0.5%;
     }
 
     #stry1 {
