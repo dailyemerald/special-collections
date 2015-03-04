@@ -118,7 +118,7 @@ canvas {
 
 #stry3 {
     left: 70%;
-    margin-top: 78%;
+    margin-top: 74%;
 }
 
 #stry4 {
@@ -248,7 +248,6 @@ canvas {
         font-size: 11px;
     }
 
-
     #stry1 {
         margin-top: 20%;
         left: 0%;
@@ -282,7 +281,11 @@ canvas {
     
 }  /* show it on small screens */
 
-
+@media screen and (min-device-width: 0px) and (max-device-width: 200px) {
+    body {
+        background-image: url(img/orientation.png);
+    }
+}
 
 
 
