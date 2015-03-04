@@ -240,7 +240,7 @@ canvas {
     .story {  
         z-index: 200;
         background-color: rgb(255,255,255);
-        padding: 2%;
+        padding: 1%;
         display: none;
         border-radius: 3%;
         width: 150%;
