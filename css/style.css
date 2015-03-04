@@ -208,18 +208,18 @@ canvas {
 
 @media screen and (min-device-width: 0px) and (max-device-width: 400px) { 
     #modal1 { 
-        margin-top: 20%;
+        margin-top: 10%;
         left: 3%;
     } 
 
     #modal2 { 
-        margin-top: 25%;
+        margin-top: 15%;
         left: 60%;
     }
 
     #modal3 {
-        margin-top: 70%;
-        left: 50%;
+        margin-top: 85%;
+        left: 28%;
     }
 
     #modal4 {
@@ -234,7 +234,7 @@ canvas {
 
     #modal6 {
         margin-top: 50%;
-        left: 15%;
+        left: 8%;
     }
 
     .story {  
