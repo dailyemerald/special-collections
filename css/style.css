@@ -243,9 +243,9 @@ canvas {
         padding: 2%;
         display: none;
         border-radius: 3%;
-        width: 100%;
+        width: 150%;
         position: absolute;
-        font-size: 15px;
+        font-size: 11px;
     }
 
 
