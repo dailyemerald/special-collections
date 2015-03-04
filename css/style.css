@@ -207,6 +207,12 @@ canvas {
 
 
 @media screen and (min-device-width: 0px) and (max-device-width: 400px) { 
+    .share-buttons img {
+        width: 50%;
+        padding-left: 15%;
+        padding-top: 1%;
+    }   
+
     #modal1 { 
         margin-top: 15%;
         left: 3%;
