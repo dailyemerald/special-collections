@@ -216,7 +216,7 @@ canvas {
 
 @media screen and (min-device-width: 0px) and (max-device-width: 400px) { 
     .share-buttons img {
-        width: 30%;
+        width: 40%;
         padding-left: 15%;
         padding-top: 1%;
     }   
@@ -260,7 +260,7 @@ canvas {
         width: 150%;
         position: absolute;
         font-size: 11px;
-        padding: 1%;
+        padding: 3%;
     }
 
     #stry1 {
