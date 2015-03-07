@@ -43,7 +43,7 @@ canvas {
 
 #modal1 { 
     margin-top: 15%;
-    left: 12%;
+    left: 300%;
 } 
 
 #moore {
@@ -51,18 +51,18 @@ canvas {
 }
 
 #modal2 { 
-    margin-top: 20%;
+    margin-top: 17%;
     left: 60%;
 }
 
 #modal3 {
-    margin-top: 35%;
-    left: 80%;
+    margin-top: 65%;
+    left: 180%;
 }
 
 #modal4 {
-    margin-top: 40%;
-    left: 140%;
+    margin-top: 28%;
+    left: 38%;
 }
 
 #vid {
@@ -72,13 +72,13 @@ canvas {
 }
 
 #modal5 {
-    margin-top: 45%;
-    left: 90%;
+    margin-top: 30%;
+    left: 320%;
 }
 
 #modal6 {
-    margin-top: 35%;
-    left: 15%;
+    margin-top: 28%;
+    left: 285%;
 }
 
 #pull {
@@ -140,37 +140,37 @@ aside {
 }
 
 #stry1 {
-    left: 3%;
+    left: 265%;
     margin-top: 3%;
     width: 63%;
 }
 
 #stry2 {
     left: 45%;
-    margin-top: 20%;
+    margin-top: 15%;
     width: 60%;
 }
 
 #stry3 {
-    left: 70%;
-    margin-top: 35%;
+    left: 150%;
+    margin-top: 40%;
     width: 60%;
 }
 
 #stry4 {
-    left: 120%;
+    left: 4%;
     margin-top: 3.5%;
     width: 95%;
 }
 
 #stry5 {
-    left: 90%;
-    margin-top: 40%;
+    left: 280%;
+    margin-top: 25%;
     width: 60%;
 }
 
 #stry6 {
-    left: 5%;
+    left: 105%;
     margin-top: 0;
     width: 95%;
 }
@@ -178,8 +178,8 @@ aside {
 
 @media screen and (min-width: 500px) and (max-width: 995px) {
     .share-buttons img {
-        width: 100%;
-        padding-top: 3%;
+        width: 25%;
+        padding-top: 1%;
     }   
 
     #modal1 { 
