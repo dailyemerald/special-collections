@@ -245,77 +245,9 @@ aside {
 
 
 @media screen and (min-device-width: 0px) and (max-device-width: 400px) { 
-    .share-buttons img {
-        width: 18%;
-        padding-left: 3%;
-        padding-top: 1%;
-    }   
-
-    #modal1 { 
-        margin-top: 15%;
-        left: 3%;
-    } 
-
-    #modal2 { 
-        margin-top: 15%;
-        left: 80%;
-    }
-
-    #modal3 {
-        margin-top: 85%;
-        left: 28%;
-    }
-
-    #modal4 {
-        margin-top: 60%;
-        left: 100%;
-    }
-
-    #modal5 {
-        margin-top: 80%;
-        left: 200%;
-    }
-
-    #modal6 {
-        margin-top: 50%;
-        left: 8%;
-    }
-
-    .story {  
-        z-index: 200;
-        background-color: rgb(255,255,255);
-        padding: 1%;
+    body {
         display: none;
-        border-radius: 3%;
-        width: 100%;
-        position: absolute;
-        font-size: 12px;
-    }
-
-    #stry1 {
-        margin-top: 20%;
-    }
-
-    #stry2 {
-        margin-top: 20%;
-    }
-
-    #stry3 {
-        margin-top: 20%;
-    }
-
-    #stry4 {
-        margin-top: 20%;
-    }
-
-    #stry5 {
-        margin-top: 20%;
-    }
-
-    #stry6 {
-        margin-top: 20%;
-    }
-
+    }    
 }  /* show it on small screens */
 
 
