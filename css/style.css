@@ -247,8 +247,8 @@ aside {
 
 @media screen and (min-device-width: 0px) and (max-device-width: 400px) { 
     .share-buttons img {
-        width: 40%;
-        padding-left: 15%;
+        width: 15%;
+        padding-left: 3%;
         padding-top: 1%;
     }   
 
