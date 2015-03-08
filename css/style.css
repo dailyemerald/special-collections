@@ -7,8 +7,8 @@ body {
 }
 
 canvas {
-    width: 340%;
-    height: 150%;
+    width: 250%;
+    height: 100%;
 }
 
 #ontop {
@@ -43,7 +43,7 @@ canvas {
 
 #modal1 { 
     margin-top: 15%;
-    left: 300%;
+    left: 100%;
 } 
 
 #moore {
@@ -51,18 +51,18 @@ canvas {
 }
 
 #modal2 { 
-    margin-top: 17%;
-    left: 60%;
+    margin-top: 15%;
+    left: 20%;
 }
 
 #modal3 {
-    margin-top: 65%;
-    left: 180%;
+    margin-top: 23%;
+    left: 100%;
 }
 
 #modal4 {
-    margin-top: 28%;
-    left: 38%;
+    margin-top: 10%;
+    left: 40%;
 }
 
 #vid {
@@ -72,13 +72,13 @@ canvas {
 }
 
 #modal5 {
-    margin-top: 30%;
-    left: 320%;
+    margin-top: 40%;
+    left: 120%;
 }
 
 #modal6 {
     margin-top: 28%;
-    left: 285%;
+    left: 105%;
 }
 
 #pull {
@@ -140,39 +140,51 @@ aside {
 }
 
 #stry1 {
-    left: 265%;
+    left: 85%;
     margin-top: 3%;
     width: 63%;
+    height: 90%;
+    overflow: scroll;
 }
 
 #stry2 {
     left: 45%;
     margin-top: 15%;
     width: 60%;
+    height: 60%;
+    overflow: scroll;
 }
 
 #stry3 {
-    left: 150%;
-    margin-top: 40%;
+    left: 100%;
+    margin-top: 15%;
     width: 60%;
+    height: 60%;
+    overflow: scroll;
 }
 
 #stry4 {
     left: 4%;
     margin-top: 3.5%;
-    width: 95%;
+    width: 80%;
+    height: 90%;
+    overflow: scroll;
 }
 
 #stry5 {
-    left: 280%;
+    left: 20%;
     margin-top: 25%;
     width: 60%;
+    height: 60%;
+    overflow: scroll;
 }
 
 #stry6 {
-    left: 105%;
-    margin-top: 0;
-    width: 95%;
+    left: 70%;
+    margin-top: 5%;
+    width: 60%;
+    height: 90%;
+    overflow: scroll;
 }
 
 
