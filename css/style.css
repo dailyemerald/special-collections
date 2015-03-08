@@ -43,7 +43,7 @@ canvas {
 
 #modal1 { 
     margin-top: 15%;
-    left: 100%;
+    left: 195%;
 } 
 
 #moore {
@@ -56,8 +56,8 @@ canvas {
 }
 
 #modal3 {
-    margin-top: 23%;
-    left: 100%;
+    margin-top: 17%;
+    left: 105%;
 }
 
 #modal4 {
@@ -77,8 +77,8 @@ canvas {
 }
 
 #modal6 {
-    margin-top: 28%;
-    left: 105%;
+    margin-top: 10%;
+    left: 210%;
 }
 
 #pull {
@@ -140,7 +140,7 @@ aside {
 }
 
 #stry1 {
-    left: 85%;
+    left: 175%;
     margin-top: 3%;
     width: 63%;
     height: 90%;
@@ -172,15 +172,15 @@ aside {
 }
 
 #stry5 {
-    left: 20%;
-    margin-top: 25%;
+    left: 90%;
+    margin-top: 15%;
     width: 60%;
     height: 60%;
     overflow: scroll;
 }
 
 #stry6 {
-    left: 70%;
+    left: 190%;
     margin-top: 5%;
     width: 60%;
     height: 90%;
