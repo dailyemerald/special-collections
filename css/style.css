@@ -1,5 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Cantata+One);
+/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display);*/
+@import url(http://fonts.googleapis.com/css?family=Linden+Hill:400italic);
 @import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(http://fonts.googleapis.com/css?family=Bentham);
 
 body {
     padding: 0;
@@ -21,7 +23,7 @@ canvas {
 }
 
 .share-buttons img {
-	padding-left: 15%;
+    padding-left: 15%;
     padding-top: 13%;
     width: 50%;
     float: left;
@@ -34,16 +36,66 @@ canvas {
     position: absolute;
 }
 
+#page {
+    width: 50%;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-right: 0.5%;
+}
+
+#page h1 {
+    font-family: 'Bentham', serif;
+    font-weight: bold;
+    font-size: 500%;
+    margin-top: 9%;
+}
+
+#sub {
+    font-family: 'Bentham', serif;
+    font-size: 200%;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#lede {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    text-align: left;
+    font-family: 'Bentham', serif;
+    font-size: 110%;
+}
+
+#cred {
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+    font-style: italic;
+    font-size: 80%;
+}
+
 .mod {  
     z-index: 2; 
     cursor: pointer;
     position: absolute;
-    font-size: 24px; 
+    font-size: 24px;
+    padding: 1%;
+    font-family: 'Bentham', serif;
+    font-weight: bold;
+    border-radius: 2px;
+    color:rgb(34,34,34);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.mod:hover {
+    background-color: rgba(255,255,255, 0.8);
 }
 
 #modal1 { 
     margin-top: 15%;
-    left: 195%;
+    left: 245%;
 } 
 
 #moore {
@@ -52,17 +104,17 @@ canvas {
 
 #modal2 { 
     margin-top: 15%;
-    left: 20%;
+    left: 70%;
 }
 
 #modal3 {
     margin-top: 17%;
-    left: 105%;
+    left: 275%;
 }
 
 #modal4 {
-    margin-top: 10%;
-    left: 40%;
+    margin-top: 15%;
+    left: 95%;
 }
 
 #vid {
@@ -73,16 +125,22 @@ canvas {
 
 #modal5 {
     margin-top: 40%;
-    left: 120%;
+    left: 170%;
 }
 
 #modal6 {
     margin-top: 10%;
-    left: 210%;
+    left: 260%;
+}
+
+#modal7 {
+    margin-top: 25%;
+    left: 217%;
 }
 
 #pull {
-    font-family: 'Cantata One', serif;
+    font-family: 'Bentham', serif;
+    font-weight: bold;
     font-size: 180%;
     line-height: 100%;
     margin-left: 2.5%;
@@ -90,12 +148,6 @@ canvas {
     line-height: 30px;
     width: 30%;
     float: right;
-}
-
-#cred {
-    position: relative;
-    z-index: 30;
-    display: none;
 }
 
 .story {  
@@ -110,13 +162,14 @@ canvas {
     border-radius: 3%;
     position: absolute;
     color: #333333;
-    font-family: 'Muli', sans-serif;
-    font-size: 13px;
+    font-family: 'Bentham', serif;
+    font-size: 17px;
 }
 
 .story h1 {
-    font-family: 'Cantata One', serif;   
-    text-align: center;
+    font-family: 'Bentham', serif;
+    font-weight: bold;   
+    font-size: 420%; 
     margin-top: -2%; 
 }
 
@@ -126,8 +179,9 @@ aside {
 }
 
 .by {
-    font-family: 'Cinzel', serif;
-    font-size: 120%;
+    font-family: 'Bentham', serif;
+    font-weight: bold;
+    font-size: 140%;
 }
 
 .btn {
@@ -140,7 +194,7 @@ aside {
 }
 
 #stry1 {
-    left: 175%;
+    left: 225%;
     margin-top: 3%;
     width: 63%;
     height: 90%;
@@ -148,23 +202,23 @@ aside {
 }
 
 #stry2 {
-    left: 45%;
-    margin-top: 15%;
+    left: 60%;
+    margin-top: 10%;
     width: 60%;
-    height: 60%;
+    height: 70%;
     overflow: scroll;
 }
 
 #stry3 {
-    left: 100%;
+    left: 225%;
     margin-top: 15%;
     width: 60%;
-    height: 60%;
+    height: 70%;
     overflow: scroll;
 }
 
 #stry4 {
-    left: 4%;
+    left: 68%;
     margin-top: 3.5%;
     width: 80%;
     height: 90%;
@@ -172,15 +226,23 @@ aside {
 }
 
 #stry5 {
-    left: 90%;
+    left: 140%;
     margin-top: 15%;
     width: 60%;
-    height: 60%;
+    height: 70%;
     overflow: scroll;
 }
 
 #stry6 {
-    left: 180%;
+    left: 230%;
+    margin-top: 5%;
+    width: 60%;
+    height: 90%;
+    overflow: scroll;
+}
+
+#stry7 {
+    left: 210%;
     margin-top: 5%;
     width: 60%;
     height: 90%;
@@ -188,70 +250,90 @@ aside {
 }
 
 
-@media screen and (min-width: 500px) and (max-width: 995px) {
+@media screen and (max-width: 900px) {
     .share-buttons img {
         width: 25%;
         padding-top: 1%;
-    }   
+    } 
+
+    .mod {
+        font-size: 18px;
+        font-weight: bold;
+    }
 
     #modal1 { 
-        margin-top: 20%;
-        left: 3%;
+        margin-top: 10%;
+        left: 200%;
     } 
 
     #modal2 { 
-        margin-top: 30%;
-        left: 60%;
+        margin-top: 6%;
+        left: 30%;
     }
 
     #modal3 {
-        margin-top: 120%;
-        left: 80%;
+        margin-top: 30%;
+        left: 225%;
     }
 
     #modal4 {
-        margin-top: 65%;
-        left: 100%;
+        margin-top: 48%;
+        left: 115%;
     }
 
     #modal5 {
-        margin-top: 85%;
-        left: 80%;
+        margin-top: 18%;
+        left: 78%;
     }
 
     #modal6 {
-        margin-top: 90%;
-        left: 15%;
+        margin-top: 17%;
+        left: 13%;
     }
 
     #stry1 {
-        left: 5%;
-        margin-top: 10%;
+        left: 170%;
+        margin-top: 5%;
+        width: 80%;
     }
 
     #stry2 {
-        left: 45%;
-        margin-top: 20%;
+        left: 15%;
+        margin-top: 6%;
+        width: 80%;
     }
 
     #stry3 {
-        left: 65%;
-        margin-top: 95%;
+        margin-top: 10%;
+        left: 170%;
+        width: 80%;
     }
 
     #stry4 {
         left: 70%;
-        margin-top: 65%;
+        margin-top: 10%;
+        width: 90%;
+        height: 80%;
     }
 
     #stry5 {
         left: 70%;
-        margin-top: 80%;
+        margin-top: 10%;
+        width: 80%;
     }
 
     #stry6 {
-        left: 15%;
-        margin-top: 90%;
+        left: 8%;
+        margin-top: 10%;
+        width: 80%;
+        height: 80%;
+    }
+
+    #stry7 {
+        left: 150%;
+        margin-top: 10%;
+        width: 80%;
+        height: 80%;
     }
 }  /* show it on small screens */
 
