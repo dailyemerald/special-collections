@@ -78,10 +78,11 @@ canvas {
     z-index: 2; 
     cursor: pointer;
     position: absolute;
-    font-size: 24px;
+    font-size: 17px;
     padding: 1%;
     font-family: 'Bentham', serif;
     font-weight: bold;
+    text-align: center;
     border-radius: 2px;
     color:rgb(34,34,34);
     background-color: rgba(255, 255, 255, 0.5);
@@ -92,8 +93,9 @@ canvas {
 }
 
 #modal1 { 
-    margin-top: 15%;
-    left: 245%;
+    margin-top: 24%;
+    left: 188.5%;
+    width: 16%;
 } 
 
 #moore {
@@ -101,18 +103,21 @@ canvas {
 }
 
 #modal2 { 
-    margin-top: 15%;
+    margin-top: 25%;
     left: 70%;
+    width: 13%;
 }
 
 #modal3 {
-    margin-top: 17%;
-    left: 275%;
+    margin-top: 26%;
+    left: 272%;
+    width: 12%;
 }
 
 #modal4 {
-    margin-top: 15%;
-    left: 95%;
+    margin-top: 25%;
+    left: 105%;
+    width: 11%;
 }
 
 #vid {
@@ -121,18 +126,21 @@ canvas {
 }
 
 #modal5 {
-    margin-top: 40%;
-    left: 170%;
+    margin-top: 30%;
+    left: 130%;
+    width: 9%;
 }
 
 #modal6 {
-    margin-top: 10%;
-    left: 260%;
+    margin-top: 28%;
+    left: 240%;
+    width: 14%;
 }
 
 #modal7 {
-    margin-top: 25%;
-    left: 217%;
+    margin-top: 38%;
+    left: 155.5%;
+    width: 14%;
 }
 
 #pull {
@@ -191,7 +199,7 @@ aside {
 }
 
 #stry1 {
-    left: 220%;
+    left: 180%;
     margin-top: 3%;
     width: 75%;
     height: 90%;
@@ -207,7 +215,7 @@ aside {
 }
 
 #stry3 {
-    left: 225%;
+    left: 215%;
     margin-top: 15%;
     width: 75%;
     height: 70%;
@@ -223,15 +231,15 @@ aside {
 }
 
 #stry5 {
-    left: 140%;
-    margin-top: 15%;
+    left: 100%;
+    margin-top: 10%;
     width: 75%;
     height: 70%;
     overflow: scroll;
 }
 
 #stry6 {
-    left: 230%;
+    left: 210%;
     margin-top: 5%;
     width: 75%;
     height: 90%;
@@ -239,7 +247,7 @@ aside {
 }
 
 #stry7 {
-    left: 210%;
+    left: 130%;
     margin-top: 5%;
     width: 75%;
     height: 90%;
