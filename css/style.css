@@ -282,74 +282,89 @@ aside {
         padding-top: 1%;
     } 
 
+    #first {
+        left: 88%;
+        margin-top: 38%;
+    }
+
+    #second {
+        left: 264%;
+        margin-top: 38%;
+    }
+
     .mod {
         font-size: 18px;
         font-weight: bold;
     }
 
     #modal1 { 
-        margin-top: 10%;
-        left: 200%;
+        margin-top: 35%;
+        left: 240%;
     } 
 
     #modal2 { 
-        margin-top: 6%;
-        left: 30%;
+        margin-top: 15%;
+        left: 80%;
     }
 
     #modal3 {
         margin-top: 30%;
-        left: 225%;
+        left: 275%;
     }
 
     #modal4 {
         margin-top: 48%;
-        left: 115%;
+        left: 165%;
     }
 
     #modal5 {
-        margin-top: 18%;
-        left: 78%;
+        margin-top: 34%;
+        left: 130%;
     }
 
     #modal6 {
-        margin-top: 17%;
-        left: 13%;
+        margin-top: 28%;
+        left: 63%;
+    }
+
+    #modal7 {
+        margin-top: 31%;
+        left: 190%;
     }
 
     #stry1 {
-        left: 170%;
+        left: 220%;
         margin-top: 5%;
         width: 80%;
     }
 
     #stry2 {
-        left: 15%;
+        left: 65%;
         margin-top: 6%;
         width: 80%;
     }
 
     #stry3 {
         margin-top: 10%;
-        left: 170%;
+        left: 220%;
         width: 80%;
     }
 
     #stry4 {
-        left: 70%;
+        left: 130%;
         margin-top: 10%;
-        width: 90%;
+        width: 95%;
         height: 80%;
     }
 
     #stry5 {
-        left: 70%;
+        left: 115%;
         margin-top: 10%;
         width: 80%;
     }
 
     #stry6 {
-        left: 8%;
+        left: 60%;
         margin-top: 10%;
         width: 80%;
         height: 80%;
