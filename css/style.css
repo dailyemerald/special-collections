@@ -74,6 +74,28 @@ canvas {
     font-size: 80%;
 }
 
+.mag {
+    position: absolute;
+    z-index: 3;
+    width: 3%;
+    border-radius: 10%;
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.mag:hover {
+    background-color: rgba(255,255,255, 0.8);
+}
+
+#first {
+    left: 88%;
+    margin-top: 28.5%;
+}
+
+#second {
+    left: 257%;
+    margin-top: 28.5%;
+}
+
 .mod {  
     z-index: 2; 
     cursor: pointer;
@@ -105,7 +127,7 @@ canvas {
 #modal2 { 
     margin-top: 25%;
     left: 70%;
-    width: 13%;
+    width: 13.5%;
 }
 
 #modal3 {
@@ -133,7 +155,7 @@ canvas {
 
 #modal6 {
     margin-top: 28%;
-    left: 240%;
+    left: 237%;
     width: 14%;
 }
 
