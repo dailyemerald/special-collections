@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Muli);
-@import url(http://fonts.googleapis.com/css?family=Bentham);
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 
 body {
     padding: 0;
@@ -35,35 +36,40 @@ canvas {
 }
 
 #page {
-    width: 50%;
+    width: 55%;
     position: relative;
     float: left;
     text-align: center;
-    margin-right: 0.5%;
+    padding-right: 0.5%;
+    background-color: rgb(214, 209, 193);
 }
 
 #page h1 {
-    font-family: 'Bentham', serif;
-    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    /*font-weight: bold;*/
     font-size: 500%;
     margin-top: 9%;
+    
 }
 
 #sub {
-    font-family: 'Bentham', serif;
-    font-size: 200%;
-    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 150%;
+    text-align: left;
     padding-right: 5%;
-    padding-left: 5%;
+    padding-left: 20%;
+    margin-top: -2.5%;
+    
 }
 
 #lede {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 5%;
     text-align: left;
-    font-family: 'Bentham', serif;
-    font-size: 110%;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 100%;
+    
 }
 
 #cred {
@@ -72,6 +78,7 @@ canvas {
     margin-left: 10%;
     font-style: italic;
     font-size: 80%;
+    padding-top: 3.9%;
 }
 
 .mag {
@@ -79,20 +86,20 @@ canvas {
     z-index: 3;
     width: 3%;
     border-radius: 10%;
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.7);
 }
 
 .mag:hover {
-    background-color: rgba(255,255,255, 0.8);
+    background-color: rgba(255,255,255, 0.9);
 }
 
 #first {
-    left: 88%;
+    left: 93%;
     margin-top: 28.5%;
 }
 
 #second {
-    left: 257%;
+    left: 261%;
     margin-top: 28.5%;
 }
 
@@ -102,16 +109,16 @@ canvas {
     position: absolute;
     font-size: 17px;
     padding: 1%;
-    font-family: 'Bentham', serif;
+    font-family: 'EB Garamond', serif;
     font-weight: bold;
     text-align: center;
     border-radius: 2px;
     color:rgb(34,34,34);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .mod:hover {
-    background-color: rgba(255,255,255, 0.8);
+    background-color: rgba(255,255,255, 0.9);
 }
 
 #modal1 { 
@@ -180,24 +187,26 @@ canvas {
 .story {  
     position: relative;
     z-index: 200;
-    background-color: rgb(255,255,255);
-    padding-left: 3.5%;
-    padding-right: 3.5%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 7%;
+    padding-right: 17%;
     padding-bottom: 3%;
     display: none;
     margin: 0;
     border-radius: 3%;
     position: absolute;
-    color: #333333;
-    font-family: 'Bentham', serif;
-    font-size: 17px;
+    color: rgb(0,0,0);
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
 }
 
 .story h1 {
-    font-family: 'Bentham', serif;   
-    font-size: 350%; 
-    text-align: center;
-    margin-top: -2%; 
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    margin-top: 10%;  
+    font-size: 300%; 
+    text-align: left; 
 }
 
 aside {
@@ -206,23 +215,23 @@ aside {
 }
 
 .by {
-    font-family: 'Bentham', serif;
+    font-family: 'EB Garamond', serif; 
     font-size: 120%;
 }
 
 .btn {
-    position: relative;
+    position: absolute;
+    left: 93%;
+    top: 5%;
     z-index: 201;
     border-style: none;
     background-color: rgb(255,255,255);
-    margin-left: 95%;
-    margin-top: 3%; 
 }
 
 #stry1 {
     left: 180%;
     margin-top: 3%;
-    width: 75%;
+    width: 70%;
     height: 90%;
     overflow: scroll;
 }
@@ -230,7 +239,7 @@ aside {
 #stry2 {
     left: 60%;
     margin-top: 10%;
-    width: 75%;
+    width: 70%;
     height: 70%;
     overflow: scroll;
 }
@@ -238,7 +247,7 @@ aside {
 #stry3 {
     left: 215%;
     margin-top: 15%;
-    width: 75%;
+    width: 70%;
     height: 70%;
     overflow: scroll;
 }
@@ -246,15 +255,15 @@ aside {
 #stry4 {
     left: 68%;
     margin-top: 3.5%;
-    width: 80%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
     overflow: scroll;
 }
 
 #stry5 {
     left: 100%;
     margin-top: 10%;
-    width: 75%;
+    width: 70%;
     height: 70%;
     overflow: scroll;
 }
@@ -262,16 +271,28 @@ aside {
 #stry6 {
     left: 210%;
     margin-top: 5%;
-    width: 75%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
     overflow: scroll;
+}
+
+#bir {
+    width: 60%;
+    margin-left: 18.5%;
+}
+
+#shep {
+    width: 45%;
+    float: right;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 #stry7 {
     left: 130%;
     margin-top: 5%;
-    width: 75%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
     overflow: scroll;
 }
 
