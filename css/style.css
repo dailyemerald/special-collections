@@ -97,18 +97,6 @@ p a:hover {
     margin-top: 32.5%;
 }
 
-.mag {
-    position: absolute;
-    z-index: 3;
-    width: 3%;
-    border-radius: 10%;
-    background-color: rgba(255,255,255, 0.7);
-}
-
-.mag:hover {
-    background-color: rgba(255,255,255, 0.9);
-}
-
 #first {
     left: 93%;
     margin-top: 28.5%;
@@ -137,15 +125,24 @@ p a:hover {
     background-color: rgba(255,255,255, 0.9);
 }
 
+.mag {
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0.5%;
+}
+
+.mag:hover {
+    background-color: rgba(255,255,255, 0.9);
+}
+
 #modal1 { 
     margin-top: 24%;
     left: 193.5%;
     width: 16%;
 } 
-
-#moore {
-    margin-top: 10%;
-}
 
 #modal2 { 
     margin-top: 25%;
@@ -188,6 +185,16 @@ p a:hover {
     width: 14%;
 }
 
+#modal8 {
+    margin-top: 28%;
+    left: 93%;
+}
+
+#modal9 {
+    margin-top: 27%;
+    left: 260.5%;
+}
+
 #pull {
     font-family: 'EB Garamond', serif;
     font-weight: bold;
@@ -202,7 +209,6 @@ p a:hover {
 }
 
 .story {  
-    position: relative;
     z-index: 200;
     background-color: rgb(255, 255, 255);
     padding-bottom: 3%;
@@ -240,7 +246,7 @@ aside {
     top: 5%;
     z-index: 201;
     border-style: none;
-    background-color: rgb(255,255,255);
+    background-color: white;
 }
 
 #stry1 {
@@ -304,24 +310,49 @@ aside {
 }
 
 #bir {
-    width: 60%;
-    margin-left: 18.5%;
+    width: 100%;
 }
 
 #shep {
-    width: 45%;
-    float: right;
+    width: 100%;
     margin-top: 3%;
-    margin-left: 3%;
 }
 
 #stry7 {
     left: 130%;
     margin-top: 5%;
-    width: 70%;
+    width: 80%;
     height: 70%;
     padding-left: 7%;
     padding-right: 15%;
+    overflow: scroll;
+    display: none;
+    margin: 0;
+    border-radius: 3%;
+    position: absolute;
+}
+
+#stry8 {
+    left: 75%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    z-index: 200;
+    display: none;
+    border-radius: 3%;
+    position: absolute;
+    overflow: scroll;
+}
+
+#stry9 {
+    left: 200%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    z-index: 200;
+    display: none;
+    border-radius: 3%;
+    position: absolute;
     overflow: scroll;
 }
 
