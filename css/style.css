@@ -311,8 +311,12 @@ aside {
 #scrp {
     float: right;
     width: 50%;
-    margin-left: 5%;
-    margin-top: 3%;
+    
+    margin-top: 12%;
+}
+
+#bir {
+    margin-top: 5%;
 }
 
 #stry6 {
@@ -321,7 +325,7 @@ aside {
     width: 80%;
     height: 70%;
     padding-left: 7%;
-    padding-right: 15%;
+    padding-right: 6%;
     overflow: scroll;
 }
 
