@@ -310,12 +310,17 @@ aside {
 }
 
 #bir {
-    width: 100%;
+    margin-top: 3%;
 }
 
 #shep {
-    width: 100%;
-    margin-top: 3%;
+}
+
+#scrp {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 #stry6 {
