@@ -70,9 +70,8 @@ p a:hover {
 #sub {
     font-family: 'EB Garamond', serif;
     font-size: 180%;
-    text-align: left;
-    padding-right: 5%;
-    padding-left: 22%;
+    text-align: center;
+    padding-right: 3%;
     margin-top: -2.4%;
     
 }
@@ -80,7 +79,7 @@ p a:hover {
 #lede {
     padding-left: 23%;
     padding-right: 23%;
-    padding-top: 5%;
+    padding-top: 8%;
     padding-bottom: 5%;
     text-align: center;
     font-family: 'Droid Sans', sans-serif;
@@ -309,18 +308,11 @@ aside {
     overflow: scroll;
 }
 
-#bir {
-    margin-top: 3%;
-}
-
-#shep {
-}
-
 #scrp {
     float: right;
     width: 50%;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 #stry6 {
