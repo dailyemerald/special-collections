@@ -78,14 +78,13 @@ p a:hover {
 }
 
 #lede {
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 23%;
+    padding-right: 23%;
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
     font-family: 'Droid Sans', sans-serif;
     font-size: 100%;
-    
 }
 
 #cred {
