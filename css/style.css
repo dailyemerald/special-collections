@@ -452,9 +452,12 @@ aside {
 }  /* show it on small screens */
 
 
-@media screen and (min-device-width: 0px) and (max-device-width: 400px) { 
+@media screen and (min-device-width: 0px) and (max-device-width: 500px) { 
     body {
-        display: none;
+        background-image: url("../img/back.png");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
     }    
 }  /* show it on small screens */
 
