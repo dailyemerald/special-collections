@@ -157,6 +157,12 @@ p a:hover {
     width: 11%;
 }
 
+#credit {
+    font-style: italic;
+    color: rgba(0,0,0,0.7);
+    font-size: 12px;
+}
+
 #vid {
     margin-top: 3.5%;
     margin-left: 1.5%;
@@ -452,9 +458,10 @@ aside {
 }  /* show it on small screens */
 
 
-@media screen and (min-device-width: 0px) and (max-device-width: 400px) { 
+@media screen and (min-device-width: 0px) and (max-device-width: 600px) { 
     body {
-        display: none;
+        background-image: url("../img/back.png");
+        background-repeat: no-repeat;
     }    
 }  /* show it on small screens */
 
